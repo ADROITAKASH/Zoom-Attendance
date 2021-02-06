@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSV to JSON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="convert.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body style="text-align: center">
+    CSV to JSON
+    <script type="text/javascript">
+      src = "convert.js";
+    </script>
+    <br />
+    <br />
+    <input type="file" id="fileUpload" />
+    <input type="button" id="upload" value="Upload" onclick="Upload()" />
+
+    <br /><br />
+
+    <button onclick="constructTable('#table')">click here</button>
+
+    <br /><br />
+
+    <table align="center" id="table" border="1"></table>
+  </body>
+</html>
